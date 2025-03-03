@@ -95,18 +95,17 @@ const skills = {
     { name: "PL/SQL", value: 75 },
     { name: "Java", value: 85 },
     { name: "Tableau", value: 70 },
-    { name: "Git/Bitbucket", value: 90 }]
-  // ],
-  // softSkills: [
-  //   { name: "Goal-Oriented", value: 80 },
-  //   { name: "Collaboration", value: 90 },
-  //   { name: "Positivity", value: 75 },
-  //   { name: "Adaptability", value: 85 },
-  //   { name: "Problem Solving", value: 75 },
-  //   { name: "Empathy", value: 90 },
-  //   { name: "Organization", value: 70 },
-  //   { name: "Creativity", value: 90 },
-  // ],
+    { name: "Git/Bitbucket", value: 90 }],
+  softSkills: [
+    { name: "Goal-Oriented", value: 80 },
+    { name: "Collaboration", value: 90 },
+    { name: "Positivity", value: 75 },
+    { name: "Adaptability", value: 85 },
+    { name: "Problem Solving", value: 75 },
+    { name: "Empathy", value: 90 },
+    { name: "Organization", value: 70 },
+    { name: "Creativity", value: 90 },
+  ],
 };
 
 // GET IN TOUCH SECTION
