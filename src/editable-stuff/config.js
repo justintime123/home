@@ -9,19 +9,19 @@ const mainBody = {
   firstName: "Justin",
   middleName: "",
   lastName: "Chassin",
-  message: " Passionate about data visualization, journalism, and writing.",
+  message: " Data visualizer, software engineer, and writer.",
   icons: [
     {
       image: "fa-github",
       url: "https://github.com/justintime123",
     },
-    // {
-    //   image: "fa-muckrack",
-    //   url: "https://muckrack.com/justin-chassin-1/portfolio"
-    // },
     {
       image: "fa-linkedin",
       url: "http://www.linkedin.com/in/justin-chassin",
+    },
+    {
+      image: "fa-wordpress",
+      url: "https://muckrack.com/justin-chassin-1/portfolio"
     }
   ],
 };
@@ -43,9 +43,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
+  imageLink: require("../editable-stuff/portfolio_img.png"),
   imageSize: 375,
   message:
-    "My name is Justin Chassin. I'm currently a Data Engineer at PNC and hold a B.S. in Computer Science/Applied Math from Stony Brook University and Masters in Quant Finance from RPI. I'm most passionate about data visualization."
+    "I'm a Data Engineer with a passion for exploring data in legal and creative fields. I went to Stony Brook for Computer Science/Applied Math. During my Quant Finance Masters at RPI, I discovered that I enjoyed data science. My projects since then have centered on creating my own datasets (using APIs and webscraping), and I hope to combine my interest in data and writing thru data journalism."
   //resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
@@ -58,8 +59,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "justintime123", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ['trump-executive-order-lawsuits-tracker', 'nail-polish-dataset-creation'],
 };
 
 // Leadership SECTION
@@ -97,14 +98,12 @@ const skills = {
     { name: "Tableau", value: 70 },
     { name: "Git/Bitbucket", value: 90 }],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Creativity", value: 95 },
+    { name: "Googling", value: 95},
+    { name: "Writing", value: 85 },
+    { name: "Organization", value: 85 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Problem Solving", value: 90 },
   ],
 };
 
@@ -114,7 +113,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "Feel free to email me at",
-  email: "justin.chassin1@gmail.com",
+  email: "justin.chassin1@gmail.com"
 };
 
 const experiences = {
@@ -125,7 +124,17 @@ const experiences = {
       role: 'Data Engineer',// Here Add Company Name
       companylogo: require('../assets/img/pnc.png'),
       date: 'January 2023 – Present',
-    }
+    },
+    {
+      role: 'Market Risk Management Intern',// Here Add Company Name
+      companylogo: require('../assets/img/pnc.png'),
+      date: 'Summer 2022',
+    },
+    {
+      role: 'Software Engineering Intern',// Here Add Company Name
+      companylogo: require('../assets/img/xos.png'),
+      date: 'Summer 2020 - December 2021',
+    },
   ]
 }
 
