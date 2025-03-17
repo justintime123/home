@@ -60,7 +60,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "justintime123", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ['trump-executive-order-lawsuits-tracker', 'nail-polish-dataset-creation'],
+  specificRepos: ['trump-eo-lawsuit-tracker', 'nail-polish-dataset-creation'],
 };
 
 // Leadership SECTION

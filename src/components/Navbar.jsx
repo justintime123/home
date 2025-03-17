@@ -50,21 +50,20 @@ const Navigation = React.forwardRef((props, ref) => {
             </NavLink>
           } */}
           {repos.show && (
-
             <NavLink
               href={process.env.PUBLIC_URL + "/#projects"}
             >
               Projects
             </NavLink>
           )}
-          <NavLink
+          {/* <NavLink
             className="nav-item lead"
             href={about.resume}
             target="_blank"
             rel="noreferrer noopener"
           >
             Resume
-          </NavLink>
+          </NavLink> */}
           {about.show && (
             <NavLink
               className="nav-item lead"
