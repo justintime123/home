@@ -56,14 +56,14 @@ const Navigation = React.forwardRef((props, ref) => {
               Projects
             </NavLink>
           )}
-          {/* <NavLink
+          <NavLink
             className="nav-item lead"
-            href={about.resume}
+            href="https://docs.google.com/document/d/1VWWnbz0JRMjPpUuUm1z5aHuhrWTBTmT_/edit?usp=sharing&ouid=105250719750630530815&rtpof=true&sd=true"
             target="_blank"
             rel="noreferrer noopener"
           >
             Resume
-          </NavLink> */}
+          </NavLink>
           {about.show && (
             <NavLink
               className="nav-item lead"

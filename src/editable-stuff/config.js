@@ -46,8 +46,8 @@ const about = {
   imageLink: require("../editable-stuff/portfolio_img.png"),
   imageSize: 375,
   message:
-    "I'm a Data Engineer with a passion for exploring data in legal and creative fields. I went to Stony Brook for Computer Science/Applied Math. During my Quant Finance Masters at RPI, I discovered that I enjoyed data science. My projects since then have centered on creating my own datasets (using APIs and webscraping), and I hope to combine my interest in data and writing thru data journalism."
-  //resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "I'm a Data Engineer with a passion for exploring data in legal and creative fields. I went to Stony Brook for Computer Science/Applied Math. During my Quant Finance Masters at RPI, I discovered that I enjoyed data science. My projects since then have centered on creating my own datasets (using APIs and webscraping), and I hope to combine my interest in data and writing thru data journalism.",
+  //resume: "https://docs.google.com/document/d/1VWWnbz0JRMjPpUuUm1z5aHuhrWTBTmT_/edit?usp=sharing&ouid=105250719750630530815&rtpof=true&sd=true",
 };
 
 // PROJECTS SECTION
