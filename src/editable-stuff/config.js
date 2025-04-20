@@ -46,7 +46,7 @@ const about = {
   imageLink: require("../editable-stuff/portfolio_img.png"),
   imageSize: 375,
   message:
-    "I'm a Data Engineer with a passion for exploring data in legal and creative fields. I went to Stony Brook for Computer Science/Applied Math. During my Quant Finance Masters at RPI, I discovered that I enjoyed data science. My projects since then have centered on creating my own datasets (using APIs and webscraping), and I hope to combine my interest in data and writing thru data journalism.",
+    "I'm a Data Engineer with a passion for exploring data in legal and creative fields. I went to Stony Brook for Computer Science/Applied Math. During my Quant Finance Masters at RPI, I discovered that I enjoyed data science. My projects since then have centered on creating my own datasets (using APIs and webscraping), and I hope to combine my interest in data and writing thru data journalism and visualization.",
   //resume: "https://docs.google.com/document/d/1VWWnbz0JRMjPpUuUm1z5aHuhrWTBTmT_/edit?usp=sharing&ouid=105250719750630530815&rtpof=true&sd=true",
 };
 
@@ -59,8 +59,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "justintime123", //i.e."johnDoe12Gh"
-  reposLength: 0,
-  specificRepos: ['nail-polish-dataset-creation'],
+  reposLength: 3,
+  specificRepos: [],
 };
 
 // Leadership SECTION
